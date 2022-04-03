@@ -20,10 +20,10 @@ public class StackScript {
 				if(command.equals("display")) {
 					System.out.println("Top of stack: " + stack.get(0));
 				} else if (command.startsWith("push")) {
-					String var = command.split("\\s+")[1];
+					String var = command.split(" ")[1];
 					stack.add(0, valueStore.get(var));
 				} else if (command.startsWith("pop")) {
-					String var = command.split("\\s+")[1];
+					String var = command.split(" ")[1];
 					valueStore.put(var, stack.remove(0));
 				} else if (command.equals("add")) {
 					stack.add(0, stack.remove(0) + stack.remove(0));
@@ -36,9 +36,9 @@ public class StackScript {
 				} else if (command.equals("end") ) {
 			
  				} else {
-					if(command.split("\\s+").length == 2) {
-						String name = command.split("\\s+")[0];
-						int value = Integer.parseInt(command.split("\\s+")[1]);
+					if(command.split(" ").length == 2) {
+						String name = command.split(" ")[0];
+						int value = Integer.parseInt(command.split(" ")[1]);
 						
 						valueStore.put(name, value);
 					}

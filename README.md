@@ -3,7 +3,7 @@
 Triad Programming Contest was a contest ran by NC A&T University for local high schools and colleges. The purpose of the contest was to test algorithmic skill and to see who could complete it the fastest. Twenty three teams participated this year, and we came in first-place as a high school, second-place overall. There were eight problems in this contest, and all are solved within this github. I have the website's code in this repo - if you download it and click on it, it'll show all the problems' descriptions.
 
 ### Problems Solved
-1. [Password Validator](https://github.com/John075/Triad-Programming-Contest-2022/blob/main/src/AsteroidPosition.java)
+1. [Password Validator](https://github.com/John075/Triad-Programming-Contest-2022/blob/main/src/PasswordValidator.java)
 2. [Stack Script](https://github.com/John075/Triad-Programming-Contest-2022/blob/main/src/StackScript.java)
 3. [Fire Plane Dispatcher](https://github.com/John075/Triad-Programming-Contest-2022/blob/main/src/FirePlaneDispatcher.java)
 4. [Square Farmland](https://github.com/John075/Triad-Programming-Contest-2022/blob/main/src/SquareFarmland.java)
